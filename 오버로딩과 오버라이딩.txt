@@ -1,0 +1,9 @@
+오버로딩 => 같은 이름 다른 매개변수
+ex) sum(int a,int b), sum(float a, float b)
+선택적 매개변수
+
+오버라이딩 => 상위 클래스가 가지고 있는 메서드를 
+하위 클래스가 재정의해서 사용
+ex) main이 가진 sum(x+y)를 mainChild가 
+sum(x*y)로 수정 
+상속관계에서는 거의다 지원
