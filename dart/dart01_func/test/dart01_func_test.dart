@@ -1,8 +1,9 @@
-import 'package:dart01_func/dart01_func.dart';
+
+import 'package:dart01_func/dart_func.dart';
 import 'package:test/test.dart';
 
 void main() {
-  test('calculate', () {
-    expect(calculate(), 42);
+  test('thirdMain', () {
+    expect(thirdMain(), '10 + 5 = result : 15');
   });
 }
