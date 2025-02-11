@@ -34,7 +34,8 @@ class _MyHomePageState extends State<MyHomePage> {
           wrapButton(textButtonIcon()),
           Row(
             children: [textButton(),outlinedButton(),textButtonIcon()],
-          )
+          ),
+          wrapButton(overflowBar()),
         ],
       ),
     );
@@ -124,3 +125,16 @@ TextButton textButtonIcon() {
   );
 }
 // 5.OverFlowBar
+OverflowBar overflowBar(){
+  return OverflowBar(
+    alignment : MainAxisAlignment.end,
+    spacing : 20,
+    overflowAlignment: OverflowBarAlignment.end,
+    overflowSpacing: 5,
+    children: [
+      textButton(),
+      outlinedButton(),
+      elevatedButton()
+    ],
+  );
+}
